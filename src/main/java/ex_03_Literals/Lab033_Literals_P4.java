@@ -7,7 +7,7 @@ public class Lab033_Literals_P4 {
         System.out.println("Age: " + age);
 
         // Binary literal - base will be 2
-        int binary_num = 0b1010;
+        int binary_num = 0B1010;
         System.out.println("Binary Num: " + binary_num);
 //https://www.rapidtables.com/convert/number/binary-to-decimal.html?x=1010
 
@@ -17,12 +17,11 @@ public class Lab033_Literals_P4 {
         System.out.println("Octal Num: " + octal);
 
         // Hexadecimal literal - base will be 16
-        int hex_num = 0xface;
+        int hex_num = 0Xface;
         System.out.println("Hex Num: " + hex_num);
 //https://www.rapidtables.com/convert/number/hex-to-decimal.html?
 
         // base 16 color combination are in hex format - #28a745
-
 
 
     }
